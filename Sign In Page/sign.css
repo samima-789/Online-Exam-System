@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.img{
+	width: 8%;
+	margin-left: 45%;
+	margin-top: 1%;
+}
+
+.p{
+	
+	margin-left: 41%;
+	color: #adafb3;
+	font-size: 30px;
+}
+
+.container1{
+	position: relative;
+	margin-left: 35%;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+	flex-wrap: wrap;
+	z-index: 1;
+}
+
+.container1 .card{
+	position: relative;
+	width: 330px;
+	height: 250px;
+	margin: 30px;
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.03);
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-img{
+	width: 10%;
+	border-radius: 50%;
+}
+
+.container1 .card .label{
+	color: white;
+	margin-left: 10%;
+
+}
+
+.container1 .card .forgot{
+	font-size: 14px;
+	margin-bottom: 2px;
+	text-decoration: none;
+}
+
+
+.container1 .card .email{
+	margin-left: 10%;
+	width: 80%;
+	background-color: #02132e;
+}
+
+.container1 .card .button{
+	margin-left: 10%;
+	width: 80%;
+	background-color: green;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.p2{
+	color: white;
+	text-align: center;
+    border: 1px solid grey;
+    width: 25.5%;
+    padding: 15px;
+    margin-left: 37.5%;
+    border-radius: 10px;
+}
